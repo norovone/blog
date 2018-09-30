@@ -1,17 +1,16 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Document</title>
-</head>
-<body>
+<% include layout/header.ejs %>
     <a href="/create">add</a>
     <ul>
-        <% arr.forEach(function(item){ %>
+        <% posts.forEach(function(post){ %>
             <li>
-                <%= item %>
+                <b>
+                    <%= post.title %>
+                </b>
+                <br>
+                <%= post.body %>
             </li>
+            <br>
         <% }); %>
     </ul>
-</body>
-</html>
+
+    <% include layout/footer.ejs %>
