@@ -24,6 +24,10 @@
     "cross-env": "^5.2.0",
     "ejs": "^2.6.1",
     "express": "^4.16.3",
+<<<<<<< HEAD
+=======
+    "jquery": "^3.3.1",
+>>>>>>> 46984f92268b1ed906095e8c57f2a388cba3fb8c
     "mongoose": "^5.3.0",
     "xlsx-populate": "^1.17.0"
   }
